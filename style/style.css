@@ -1,0 +1,78 @@
+
+/*####### ALL MEDIA ########*/
+
+.input-group {
+  margin: 20px 0px;
+}
+
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+td:first-of-type {
+  height: 200px;
+  width: 250px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+p, div {
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+img.andrew-img {
+  height:100px;
+  border-radius:60px;
+}
+
+.main-header {
+  display: inline;
+  vertical-align: bottom;
+  margin-left: 30px;    
+}
+
+.top-space {
+  margin-top: 10px;
+}
+/*####### (end all media) ########*/
+
+
+/*####### MOBILE <992px PORTRAIT ########*/
+
+@media screen and (max-width:991px) and (orientation:portrait) { 
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+}
+/*####### (end mobile <992px portrait) ########*/
+
+
+/*####### MOBILE <992px LANDSCAPE ########*/
+
+@media screen and (max-width:991px) and (orientation:landscape) { 
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+}
+/*####### (end mobile <992px landscape) ########*/
+
+
+/*####### DESKTOP >=992px ########*/
+
+@media screen and (min-width:992px) {
+  .desktop {
+    display: block !important;
+  }
+  .mobile {
+    display: none !important;
+  }
+}
+/*####### (end desktop >=992px) ########*/
