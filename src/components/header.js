@@ -9,6 +9,7 @@ export default () => {
         <ul>
           <li><a href="https://github.com/andrewheekin"><i className="fa fa-lg fa-github"></i></a></li>
           <li><a href="https://www.linkedin.com/pub/andrew-heekin/48/24a/465"><i className="fa fa-lg fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/andrewheekin"><i className="fa fa-lg fa-twitter"></i></a></li>          
           <li><a href="mailto:andrewheekin@gmail.com"><i className="fa fa-lg fa-envelope"></i></a></li>
         </ul>
       </div>
