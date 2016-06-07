@@ -15,6 +15,14 @@ td:first-of-type {
   width: 250px;
 }
 
+.side-nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-right: 0px;
+}
+.side-nav li {
+  padding-bottom: 7px;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 }
@@ -28,9 +36,8 @@ img.andrew-img {
 }
 
 .main-header {
-  display: inline;
   vertical-align: bottom;
-  margin-left: 30px;    
+  text-align: center;
 }
 
 .top-space {
@@ -85,6 +92,13 @@ img.andrew-img {
 .social .fa-linkedin:hover {
     background: #0094BC;
 }
+.footer {
+  padding-top: 40px;
+}
+.footer-link,
+.footer-link a {
+  color: gray;
+}
 /*####### (end all media) ########*/
 
 
@@ -96,6 +110,17 @@ img.andrew-img {
   }
   .mobile {
     display: block !important;
+  }
+  .main-header {
+    display: block;
+  }
+  img.andrew-img {
+    display: block;
+    margin: auto;
+  }
+  .social {
+    width: 90%;
+    text-align: center;
   }
 }
 /*####### (end mobile <992px portrait) ########*/
@@ -122,6 +147,16 @@ img.andrew-img {
   }
   .mobile {
     display: none !important;
+  }
+  .main-header {
+    display: inline;
+    margin-left: 30px;
+  }
+  img.andrew-img {
+    margin-left: 30px;
+  }
+  .side-nav {
+    font-size: 19px;
   }
 }
 /*####### (end desktop >=992px) ########*/
