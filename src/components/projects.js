@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
   return (
-    <div className="container">
+    <div className="projects container">
       <div className="row">
         <div className="col-xs-18 col-sm-6 col-md-3">
           <div className="thumbnail">
