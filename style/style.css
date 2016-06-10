@@ -22,6 +22,12 @@ td:first-of-type {
 .side-nav li {
   padding-bottom: 7px;
 }
+.side-nav a:focus {
+  text-decoration: none;
+}
+.side-nav a:active {
+  text-decoration: underline;
+}
 .contact ul {
   list-style-type: none;
   padding: 0px;
@@ -31,9 +37,39 @@ h1, h2, h3, h4, h5, h6, p, div {
   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 }
 .about *,
+.projects p,
+.projects h1,
 .projects *,
-.contact * {
-  font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
+.contact *,
+.project-page * {
+  font-family: 'avenir', 'avenir next', helvetica, arial, sans-serif;
+}
+.projects h1 {
+  font-weight:bold;
+  margin-bottom: 25px;
+  color:#555555;
+}
+.projects h1:hover {
+  color:#000000;
+}
+.projects a:hover {
+  text-decoration: none;
+}
+.projects a {
+  color:#333;
+}
+.projects p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+.project-page h1 {
+  font-weight:bold;
+  margin-bottom: 25px;
+  color:#555555;
+}
+.project-page p {
+  font-size: 1.2em;
+  line-height: 1.5;
 }
 img.andrew-img {
   height:100px;
@@ -43,9 +79,11 @@ img.andrew-img {
   vertical-align: bottom;
   text-align: center;
 }
-
 .top-space {
   margin-top: 10px;
+}
+.resume {
+  height: 1050px;
 }
 .social {
   display: inline-block;
@@ -97,11 +135,31 @@ img.andrew-img {
     background: #0094BC;
 }
 .footer {
-  padding-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 .footer-link,
 .footer-link a {
   color: gray;
+}
+.author {
+  padding: 10px 0 20px;
+}
+.author-name,
+.author-name a {
+  color: #bfbfbf;
+  font-size: 1.3em;
+  display: inline;
+}
+.vertical-rule {
+  display: inline;
+  border-left:1px solid #bfbfbf;
+  margin: 0 15px 0 15px;
+}
+.date {
+  color: #bfbfbf;
+  font-size: 1em;
+  display: inline;
 }
 /*####### (end all media) ########*/
 
@@ -125,6 +183,9 @@ img.andrew-img {
   .social {
     width: 90%;
     text-align: center;
+  }
+  .resume {
+    width:750px !important;
   }
 }
 /*####### (end mobile <992px portrait) ########*/
@@ -165,5 +226,11 @@ img.andrew-img {
   .about-section {
     padding-bottom: 10px;
   }
+  .projects {
+    margin-top: 30px;
+  }
+  .project-page {
+    margin-top: 30px;
+  }  
 }
 /*####### (end desktop >=992px) ########*/
