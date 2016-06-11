@@ -3,7 +3,8 @@ import React from 'react';
 export default () => {
   return (
     <div className="project-page">
-      <h1>Dadjokebot</h1>
+      <h1 className="dadjoke-h1">Dadjokebot</h1>
+      <img className="bot-img" src="../../img/dadjokebot.png"></img>
       <p>This project got started while I was playing with the Twilio messaging
       API. The concept is straightforward - text a number, and it will text you a joke.</p>
       <p>The project started out as as a python flask application using the twilio package.

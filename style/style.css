@@ -71,6 +71,15 @@ h1, h2, h3, h4, h5, h6, p, div {
   font-size: 1.2em;
   line-height: 1.5;
 }
+.dadjoke-h1 {
+  display: inline;
+  margin-right: 50px;
+  vertical-align: middle;
+}
+img.bot-img {
+  height:90px;
+  margin-bottom: 15px;
+}
 img.andrew-img {
   height:100px;
   border-radius:60px;
