@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ProjectList from '../components/project-list';
+import sr from '../utils/scrollReveal.js';
 
 const projects = [
   {
@@ -35,8 +36,25 @@ const projects = [
   }
 ];
 
-export default () => {
-  return (
-    <ProjectList projects={projects} />
-  );
+export default class Projects extends Component {
+
+  componentDidMount = () => {
+    const config = {
+      duration: 600,
+      delay: 300,
+      distance: '0px',
+      scale: 1,
+      easing: 'ease',
+    }
+
+    sr.reveal(this.refs.projects, config)
+  }
+
+  render() {
+    return (
+      <div ref='projects'>
+        <ProjectList projects={projects} />
+      </div>
+    );    
+  }
 }
