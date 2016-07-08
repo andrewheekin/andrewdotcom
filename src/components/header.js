@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router'
 
 export default () => {
   return (
     <div>
-      <img className="andrew-img" src="../../img/andrew.jpg"></img>
-      <div className="h1 main-header">andrew heekin</div>
+      <Link to="/"><img className="andrew-img" src="../../img/andrew.jpg"></img></Link>
+      <Link className="header-link" to="/"><div className="h1 main-header">andrew heekin</div></Link>
       <div className="social">
         <ul>
           <li><a href="https://github.com/andrewheekin"><i className="fa fa-lg fa-github"></i></a></li>
