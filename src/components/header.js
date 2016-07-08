@@ -7,9 +7,9 @@ export default class Header extends Component {
   componentDidMount = () => {
     const config = {
       origin: 'top',
-      duration: 500,
-      delay: 50,
-      distance: '3px',
+      duration: 600,
+      delay: 300,
+      distance: '7px',
       scale: 1,
       easing: 'ease',
     }
