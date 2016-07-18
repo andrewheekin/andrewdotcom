@@ -25,13 +25,13 @@ export default class About extends Component {
         </div>    
         <div className="about-section">
           <h4>Currently</h4>
-          <p>I've worked at Booz Allen Hamilton since summer '14 as a front end developer. 
+          <p>I've worked at Booz Allen Hamilton since summer '14 as a frontend developer. 
           I currently work on the <a href="http://disasterassistance.gov">DisasterAssitance.gov</a> website. Previously I was
           developing a recommender system for the <a href="http://www.benefits.gov">Benefits.gov</a> website.</p>
         </div>
         <div className="about-section">
           <h4>Technologies</h4>
-          <p>Javascript (angular, react, node), python, docker</p>
+          <p>Javascript (Angular, React, Node), HTML/CSS/SASS, Python/Flask, Docker, MongoDB, Postgres, Redis, Git, AWS, DigitalOcean, NGINX, R</p>
         </div>      
         <div className="about-section">
           <h4>School</h4>
