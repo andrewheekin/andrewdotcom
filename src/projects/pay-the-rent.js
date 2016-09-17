@@ -15,7 +15,7 @@ export default () => {
       Note: it is probably bad to store venmo credentials on a fresh DigitalOcean droplet
       or EC2 box.</p>
       <br />
-      <p>Github repo: <a href="https://github.com/andrewheekin/pay-the-rent">
+      <p><a href="https://github.com/andrewheekin/pay-the-rent">
       https://github.com/andrewheekin/pay-the-rent</a></p>
     </div>
   );

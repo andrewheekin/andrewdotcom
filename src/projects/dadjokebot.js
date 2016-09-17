@@ -23,13 +23,13 @@ export default () => {
       on Cloudfront. As a reverse proxy, I use a simple Nginx proxy to speed things up if traffic
       were to increase.</p>
       <br />
-      <p>Text "dadjoke" to (404) 476-6987 to try it (it doesn't send spam)</p>
+      <p>Text "dadjoke" to (404) 476-6987</p>
       <br />
-      <p>Demo: <a href="https://dadjokebot.com">
+      <p>demo - <a href="https://dadjokebot.com">
       https://dadjokebot.com</a></p>      
-      <p>Github repo (frontend): <a href="https://github.com/andrewheekin/dadjoke-frontend">
+      <p>client - <a href="https://github.com/andrewheekin/dadjoke-frontend">
       https://github.com/andrewheekin/dadjoke-frontend</a></p>
-      <p>Github repo (backend): <a href="https://github.com/andrewheekin/dadjoke">
+      <p>server - <a href="https://github.com/andrewheekin/dadjoke">
       https://github.com/andrewheekin/dadjoke</a></p>      
     </div>
   );

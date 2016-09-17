@@ -8,9 +8,8 @@ const projects = [
     "url":"/this-website",
     "author":"Andrew Heekin",
     "date":"5 JUNE 2016",
-    "description":"Here are the details of how I set up my personal website. I chose to host \
-      the site with the static hosting feature of S3. At the risk of over-engineering, I use \
-      react.js to"
+    "description":"The site is hosted with AWS S3 static hosting. The view is generated with react.js and \
+      webpack bundles all javascript. React-router provides simple routing functionality for"
   },{
     "title":"Dadjokebot",
     "url":"/dadjokebot",
