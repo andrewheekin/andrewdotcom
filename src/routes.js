@@ -21,6 +21,6 @@ export default (
     <Route path="dadjokebot" component={Dadjokebot} />    
     <Route path="pay-the-rent" component={PayTheRent} />    
     <Route path="flask-metatag" component={FlaskMetatag} />
-    <Route path="resume" component={Resume} />
+    {/*<Route path="resume" component={Resume} />*/}
   </Route>
 );
