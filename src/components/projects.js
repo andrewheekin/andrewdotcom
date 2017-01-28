@@ -15,23 +15,23 @@ const projects = [
     "url":"/dadjokebot",
     "author":"Andrew Heekin",
     "date":"7 MAY 2016",    
-    "description":"This project got started while I was playing with the Twilio messaging API. \
-      The concept is straightforward- text a number, and it will text you a joke. The project \
-      started out as as a python"
+    "description":"This project is a python flask application using the twilio package. I added a landing \
+      page as a link in the response sms to collect analytics data. The landing page is a static site \
+      that makes"
   },{
     "title":"Pay the rent",
     "url":"/pay-the-rent",
     "author":"Andrew Heekin",
     "date":"25 JANUARY 2016",    
-    "description":"I recently stumbled on the Venmo API and decided to put it to use to collect rent. \
-      The application relies on the Advanced Python Scheduler package to execute cron like jobs"
+    "description":"The pay-the-rent application collects monthly rent through venmo's api.The AP Scheduler \
+      package runs the payment cron jobs, the python requests package posts charges. BeautifulSoup parses"
   },{
     "title":"Flask metatag",
     "url":"/flask-metatag",
     "author":"Andrew Heekin",
     "date":"30 DECEMBER 2015",    
-    "description":"With the rise of the open graph protocol, it's very common for blogs and sites \
-      to include metatag descriptions, titles, and images to describe in a nutshell what's being shared."
+    "description":"Python flask api that uses the python newspaper package to output the open graph \
+      information (title, description,"
   }
 ];
 
