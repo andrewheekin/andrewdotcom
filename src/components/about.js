@@ -32,7 +32,8 @@ export default class About extends Component {
         </div>
         <div className="about-section">
           <h4>Technologies</h4>
-          <p>Javascript (Angular, React, Node), HTML/CSS/SASS, Python/Flask, Docker, MongoDB, Postgres, Redis, Git, AWS, DigitalOcean, NGINX, R</p>
+          {/*<p>Javascript (Angular, React, Node), HTML/CSS/SASS, Python/Flask, Docker, MongoDB, Postgres, Redis, Git, AWS, DigitalOcean, NGINX, R</p>*/}
+          <p>Javascript, HTML, CSS, Python, Databases</p>          
         </div>      
         <div className="about-section">
           <h4>School</h4>
