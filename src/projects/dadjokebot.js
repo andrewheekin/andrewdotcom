@@ -3,34 +3,21 @@ import React from 'react';
 export default () => {
   return (
     <div className="project-page">
-      <h1 className="dadjoke-h1">Dadjokebot</h1>
-      <img className="bot-img" src="../../img/dadjokebot.png"></img>
-      <p>This project got started while I was playing with the Twilio messaging
-      API. The concept is straightforward - text a number, and it will text you a joke.</p>
-      <p>The project started out as as a python flask application using the twilio package.
-      After a while I decided to add a landing page to be included as a link in the response
-      sms to collect analytics data. I had heard a lot about and wanted to test out a
-      completely static react + redux front end that would make cross-origin calls to an external
-      backend. The front end is statically hosted on an S3 bucket backed by a Cloudfront CDN.
-      Admittedly, the CDN is overkill for my traffic but was still fun to set up. I use axios
-      as my async http request driver.</p>
-      <p>The backend server is hosted on DigitalOcean. I use docker-compose to rebuild the 
-      flask app. I use a postgres docker image and a
-      separate postgres data container to persist data on what numbers the app has texted a joke. I also use
-      redis as a faster way to keep track of jokes told to avoid telling the same joke twice to a number.</p>
-      <p>Security still needs some work (no flask api auth yet). I use SSL certs on both the
-      DigitalOcean droplet and the S3 bucket. I use Letsencrypt SSL on the droplet, and the free ACM
-      on Cloudfront. As a reverse proxy, I use a simple Nginx proxy to speed things up if traffic
-      were to increase.</p>
+      <h1>Dadjokebot</h1>
+      {/*<img className="bot-img" src="../../img/dadjokebot.png"></img>*/}
+      <p>This project started out as as a python flask application using the twilio package.
+      I added a landing page to be included as a link in the response
+      sms to collect analytics data. The landing page is a static site that makes cross-origin calls to an external
+      resource. The client is statically hosted on S3 by cloudfront.
+      The server is hosted on DigitalOcean. Docker-compose rebuilds the 
+      flask app container. Dockerized postgres and a
+      separate postgres data container persist data on who texts the app. Redis keeps track of jokes told to 
+      avoid telling the same joke twice. SSL certs are set up on both the
+      server ip and the S3 domain. Nginx acts as a reverse proxy.</p>
       <br />
-      <p>Text "dadjoke" to (404) 476-6987</p>
-      <br />
-      <p>demo - <a href="https://dadjokebot.com">
-      https://dadjokebot.com</a></p>      
-      <p>client - <a href="https://github.com/andrewheekin/dadjoke-frontend">
-      https://github.com/andrewheekin/dadjoke-frontend</a></p>
-      <p>server - <a href="https://github.com/andrewheekin/dadjoke">
-      https://github.com/andrewheekin/dadjoke</a></p>      
+      <p><a href="https://dadjokebot.com">https://dadjokebot.com</a></p>
+      <p><a href="https://github.com/andrewheekin/dadjoke-frontend">https://github.com/andrewheekin/dadjoke-frontend</a></p>
+      <p><a href="https://github.com/andrewheekin/dadjoke">https://github.com/andrewheekin/dadjoke</a></p>
     </div>
   );
 }
