@@ -5,7 +5,6 @@ import App from './components/app';
 import About from './components/about';
 import Projects from './components/projects';
 import Contact from './components/contact';
-import Resume from './components/resume';
 
 import ThisWebsite from './projects/this-website';
 import Dadjokebot from './projects/dadjokebot';
@@ -21,6 +20,5 @@ export default (
     <Route path="dadjokebot" component={Dadjokebot} />    
     <Route path="pay-the-rent" component={PayTheRent} />    
     <Route path="flask-metatag" component={FlaskMetatag} />
-    {/*<Route path="resume" component={Resume} />*/}
   </Route>
 );
