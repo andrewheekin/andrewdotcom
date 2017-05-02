@@ -4,6 +4,13 @@ import sr from '../utils/scrollReveal.js';
 
 const projects = [
   {
+    "title":"Mochibox",
+    "url":"/mochibox",
+    "author":"Andrew Heekin",
+    "date":"12 MAR 2017",
+    "description":"Over half of restaurant patrons will visit the restaurant's website before visiting, according \
+    to the National Restuarant Association. Mochibox was created to draw web visitors into"
+  },{
     "title":"This website",
     "url":"/this-website",
     "author":"Andrew Heekin",
